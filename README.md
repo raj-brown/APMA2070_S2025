@@ -96,29 +96,29 @@ Providence RI 02906
 **Lecture 7b: Distillation of Neural Networks** [Slides: (March 31, 2025)](https://www.dropbox.com/scl/fi/fvtw25vvbm2b2zczejz23/Lecture-7b-Distillation-of-Neural_Networks.pptx?rlkey=s9zjfjre8y5qyx8zvlwd8fs3r&st=7uwbzoto&dl=0) [Jupyter\_Notebook](Lecture_7b_Notebook/pysr.ipynb)  
 
 
-**Lecture 8: Physics-Informed Neural Networks (PINNs)- Part I** [Slides: (March 31, 2025)](https://www.dropbox.com/scl/fi/0596ep5z4zk67nkch3uxf/Lecture-8-pinns-I.pptx?rlkey=lo7xh0ass7wf0wd9acn5jny73&st=xhxsomsw&dl=0)[Jupyter\_Notebook](Lecture_8_Notebook/Python_Codes)[MATLAB\_Codes](Lecture_8_Notebook/MATLAB_Codes)  
+**Lecture 8: Physics-Informed Neural Networks (PINNs)- Part I** [Slides: (March 31, April 6, 2025)](https://www.dropbox.com/scl/fi/0596ep5z4zk67nkch3uxf/Lecture-8-pinns-I.pptx?rlkey=lo7xh0ass7wf0wd9acn5jny73&st=xhxsomsw&dl=0)[Jupyter\_Notebook](Lecture_8_Notebook/Python_Codes)[MATLAB\_Codes](Lecture_8_Notebook/MATLAB_Codes)  
 
 <!--
-**Lecture 9: Physics-Informed Neural Networks (PINNs)- Part II** [Slides: (March 31, 2024)](https://www.dropbox.com/scl/fi/61cabi0hebfl0ol5jm4tf/Lecture-9-pinns-II.pptx?rlkey=6nr76u7kwcqmnv2ydueuqao8j&dl=0) 
+**Lecture 9: Physics-Informed Neural Networks (PINNs)- Part II** [Slides: (April 6, 2025)](https://www.dropbox.com/scl/fi/61cabi0hebfl0ol5jm4tf/Lecture-9-pinns-II.pptx?rlkey=6nr76u7kwcqmnv2ydueuqao8j&dl=0) 
 
 
 ## Module III: Neural Operators
-**Lecture 10: Deep Operator Network (DeepONet)** [Slides: (April 15, 2024)](https://www.dropbox.com/scl/fi/jvrysdepmre6dcxzgp4t9/Lecture_10_DeepONet_GK.pptx?rlkey=khgacxc7pscr3qisea34yo86v&dl=0) [Jupyter\_Notebook](Lecture_10_Notebook/operators.ipynb) [DATA\_FOR\_FNO](https://www.dropbox.com/s/klxu19gn9oxjdwf/burgers\_data\_R10.mat?dl=0)  
+**Lecture 10: Deep Operator Network (DeepONet)** [Slides: (April 13, 2025)](https://www.dropbox.com/scl/fi/jvrysdepmre6dcxzgp4t9/Lecture_10_DeepONet_GK.pptx?rlkey=khgacxc7pscr3qisea34yo86v&dl=0) [Jupyter\_Notebook](Lecture_10_Notebook/operators.ipynb) [DATA\_FOR\_FNO](https://www.dropbox.com/s/klxu19gn9oxjdwf/burgers\_data\_R10.mat?dl=0)  
 
 
-**Lecture 11: Implementation of PINNs and DeepOnet** [Slides: (April 8, 2024)](https://www.dropbox.com/scl/fi/0irba2lenid6b62alvyr0/Lecture_11_implementation_PINNS_DeepXDE.pptx?rlkey=bsbhlo7wruiqwuc0x0mbijtek&dl=0) [Jupyter\_Notebook](Lecture_11_Notebook/deepXde.ipynb) [DATA\_FOR\_DEEPONET](https://www.dropbox.com/sh/dkmn84nccqcbuts/AAC9gunsRcCzfv4ETrTm56cWa?dl=0)
+**Lecture 11: Implementation of PINNs and DeepOnet** [Slides: (April 20, 2025)](https://www.dropbox.com/scl/fi/0irba2lenid6b62alvyr0/Lecture_11_implementation_PINNS_DeepXDE.pptx?rlkey=bsbhlo7wruiqwuc0x0mbijtek&dl=0) [Jupyter\_Notebook](Lecture_11_Notebook/deepXde.ipynb) [DATA\_FOR\_DEEPONET](https://www.dropbox.com/sh/dkmn84nccqcbuts/AAC9gunsRcCzfv4ETrTm56cWa?dl=0)
 
 
 ## Module IV: SciML Uncertainty Quantification (SciML-UQ)
 
-**Lecture 12: Machine Learning using Multi-Fidelity Data** [Slides: (April 22, 2024)](https://www.dropbox.com/scl/fi/trxbbk9gy6u7jnyo83jq0/Lecture_12_Multi-fidelity.pptx?rlkey=h6mohyihxr35nsusw9nc5v10b&dl=0) [Jupyter\_Notebook](Lecture_12_Notebook/multi_fidelity_notbook.ipynb)
+**Lecture 12: Machine Learning using Multi-Fidelity Data** [Slides: (April 20, 2025)](https://www.dropbox.com/scl/fi/trxbbk9gy6u7jnyo83jq0/Lecture_12_Multi-fidelity.pptx?rlkey=h6mohyihxr35nsusw9nc5v10b&dl=0) [Jupyter\_Notebook](Lecture_12_Notebook/multi_fidelity_notbook.ipynb)
 
-**Lecture 13: Uncertainty Quantification(UQ) in Scientific Machine Learning** [Slides: (April 29, 2024)](https://www.dropbox.com/scl/fi/btioi6rkpvqf6bmcl7rpu/Lecture_13_UQ.pptx?rlkey=b7ct5pd9d2ykoy59tu0gzssc5&dl=0) [Jupyter\_Notebook](Lecture_13_Notebook/neural_uq.ipynb) [Slides: Neural\_UQ](https://www.dropbox.com/scl/fi/enwkop5hdng3tc7ejtz2z/Lecture_13_ADD_ON_NeuralUQ.pptx?rlkey=m0nzk6gleb3q1xv5eny38pgzc&dl=0)
+**Lecture 13: Uncertainty Quantification(UQ) in Scientific Machine Learning** [Slides: (April 27, 2025)](https://www.dropbox.com/scl/fi/btioi6rkpvqf6bmcl7rpu/Lecture_13_UQ.pptx?rlkey=b7ct5pd9d2ykoy59tu0gzssc5&dl=0) [Jupyter\_Notebook](Lecture_13_Notebook/neural_uq.ipynb) [Slides: Neural\_UQ](https://www.dropbox.com/scl/fi/enwkop5hdng3tc7ejtz2z/Lecture_13_ADD_ON_NeuralUQ.pptx?rlkey=m0nzk6gleb3q1xv5eny38pgzc&dl=0)
 
 
 ## Advanced Topics
 
-1. **Multi-GPU Scientific Machine Learning** [Slides: (May 6, 2024)](https://www.dropbox.com/scl/fi/79tjobb4tft6n8i88tyc0/Lecture_11_MULTI-GPU_SCIML.pptx?rlkey=hqv8t9c7jg4iaya1874u1s1ky&dl=0) [Python Code](Advanced_Topics) [Slides:NCCL](https://www.dropbox.com/scl/fi/5xdqa4fn90l95m2luobly/Lecture_11_NCCL.pdf?rlkey=v1f9emhdoa4extrnc45k1qq38&dl=0)[Slides: NVIDIA-MODULUS](https://www.dropbox.com/scl/fi/rqbuqbijxi9fedzaoiy1n/MODULUS_NVIDIA.pptx?rlkey=iumhh62o6pvae7lnkj54dbg5r&dl=0)
+1. **Multi-GPU Scientific Machine Learning** [Slides: (May 5, 2025)](https://www.dropbox.com/scl/fi/79tjobb4tft6n8i88tyc0/Lecture_11_MULTI-GPU_SCIML.pptx?rlkey=hqv8t9c7jg4iaya1874u1s1ky&dl=0) [Python Code](Advanced_Topics) [Slides:NCCL](https://www.dropbox.com/scl/fi/5xdqa4fn90l95m2luobly/Lecture_11_NCCL.pdf?rlkey=v1f9emhdoa4extrnc45k1qq38&dl=0)[Slides: NVIDIA-MODULUS](https://www.dropbox.com/scl/fi/rqbuqbijxi9fedzaoiy1n/MODULUS_NVIDIA.pptx?rlkey=iumhh62o6pvae7lnkj54dbg5r&dl=0)
 -->
 
 
