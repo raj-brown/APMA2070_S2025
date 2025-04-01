@@ -96,7 +96,7 @@ Providence RI 02906
 **Lecture 7b: Distillation of Neural Networks** [Slides: (March 31, 2025)](https://www.dropbox.com/scl/fi/fvtw25vvbm2b2zczejz23/Lecture-7b-Distillation-of-Neural_Networks.pptx?rlkey=s9zjfjre8y5qyx8zvlwd8fs3r&st=7uwbzoto&dl=0) [Jupyter\_Notebook](Lecture_7b_Notebook/pysr.ipynb)  
 
 
-**Lecture 8: Physics-Informed Neural Networks (PINNs)- Part I** [Slides: (March 31, 2025)](https://www.dropbox.com/scl/fi/0596ep5z4zk67nkch3uxf/Lecture-8-pinns-I.pptx?rlkey=lo7xh0ass7wf0wd9acn5jny73&st=nde45gjh&dl=0)[Jupyter\_Notebook](Lecture_8_Notebook/Python_Codes)[MATLAB\_Codes](Lecture_8_Notebook/MATLAB_Codes)  
+**Lecture 8: Physics-Informed Neural Networks (PINNs)- Part I** [Slides: (March 31, 2025)](https://www.dropbox.com/scl/fi/0596ep5z4zk67nkch3uxf/Lecture-8-pinns-I.pptx?rlkey=lo7xh0ass7wf0wd9acn5jny73&st=xhxsomsw&dl=0)[Jupyter\_Notebook](Lecture_8_Notebook/Python_Codes)[MATLAB\_Codes](Lecture_8_Notebook/MATLAB_Codes)  
 
 <!--
 **Lecture 9: Physics-Informed Neural Networks (PINNs)- Part II** [Slides: (March 31, 2024)](https://www.dropbox.com/scl/fi/61cabi0hebfl0ol5jm4tf/Lecture-9-pinns-II.pptx?rlkey=6nr76u7kwcqmnv2ydueuqao8j&dl=0) 
