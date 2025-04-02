@@ -1,11 +1,11 @@
-**/*.pyc
+
+1;95;0c**/*.pyc
 **/*.npz
 /Lecture_10_Notebook/
 /Lecture_11_Notebook/
 /Lecture_12_Notebook/
 /Lecture_13_Notebook/
 /Advanced_Topics/
-/Example_Project_PPT/
 /.DS_Store
 
 
