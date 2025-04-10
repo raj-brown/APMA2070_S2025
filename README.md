@@ -82,11 +82,9 @@ Providence RI 02906
 [Homework\_L5](Homeworks/HW\_L5.pdf) [STARTING\_CODE](Homeworks/HW\_5\_CODE)  Due Date: 4/07/2025, 11:59 PM ET
 
 **Lecture 6: Neural Network Architectures** [Slides: (March 10, 2024)](https://www.dropbox.com/scl/fi/ysrirwvzphpxj2wn101sh/Lecture_06_NN_Architectures.pptx?rlkey=qebql65ntpk3iw08qex7so4wj&st=6hgskcjx&dl=0) [Jupyter\_Notebook](Lecture_6_Notebook/nn_architectures.ipynb)  
+[Homework\_L6](Homeworks/HW\_L6.pdf) Due Date: 4/28/2025, 11:59 PM ET
 
-<!--
-[Homework\_L6](Homeworks/HW\_L6.pdf) Due Date: 4/19/2025, 11:59 PM ET
-[end\_of\_semester\_FUN\_homework](Homeworks/end\_of\_semester\_FUN\_homework.pdf) Due Date: 5/10/2024
--->
+
 
 ## Module II: Neural Differential Equations
 
