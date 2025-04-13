@@ -1,8 +1,6 @@
 
-1;95;0c**/*.pyc
+**/*.pyc
 **/*.npz
-/Lecture_10_Notebook/
-/Lecture_11_Notebook/
 /Lecture_12_Notebook/
 /Lecture_13_Notebook/
 /Advanced_Topics/
