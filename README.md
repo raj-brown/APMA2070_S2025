@@ -99,14 +99,14 @@ Providence RI 02906
 
 **Lecture 9: Physics-Informed Neural Networks (PINNs)- Part II** [Slides: (April 7, 2025)](https://www.dropbox.com/scl/fi/wq128pvaytxts6s7ycg4c/Lecture-9-pinns-II.pptx?rlkey=0v8s1sjh0585udyggamvwtvxu&dl=0) 
 
-<!--
+
 ## Module III: Neural Operators
-**Lecture 10: Deep Operator Network (DeepONet)** [Slides: (April 13, 2025)](https://www.dropbox.com/scl/fi/jvrysdepmre6dcxzgp4t9/Lecture_10_DeepONet_GK.pptx?rlkey=khgacxc7pscr3qisea34yo86v&dl=0) [Jupyter\_Notebook](Lecture_10_Notebook/operators.ipynb) [DATA\_FOR\_FNO](https://www.dropbox.com/s/klxu19gn9oxjdwf/burgers\_data\_R10.mat?dl=0)  
+**Lecture 10: Deep Operator Network (DeepONet)** [Slides: (April 13, 2025)](https://www.dropbox.com/scl/fi/yfinwvwkaorgl3p5stmu9/Lecture_10_DeepONet_GK.pptx?rlkey=nvs1wwz8j53ea8rz61o3927zv&dl=0) [Jupyter\_Notebook](Lecture_10_Notebook/operators.ipynb) [DATA\_FOR\_FNO](https://www.dropbox.com/s/klxu19gn9oxjdwf/burgers\_data\_R10.mat?dl=0)  
 
 
 **Lecture 11: Implementation of PINNs and DeepOnet** [Slides: (April 20, 2025)](https://www.dropbox.com/scl/fi/0irba2lenid6b62alvyr0/Lecture_11_implementation_PINNS_DeepXDE.pptx?rlkey=bsbhlo7wruiqwuc0x0mbijtek&dl=0) [Jupyter\_Notebook](Lecture_11_Notebook/deepXde.ipynb) [DATA\_FOR\_DEEPONET](https://www.dropbox.com/sh/dkmn84nccqcbuts/AAC9gunsRcCzfv4ETrTm56cWa?dl=0)
 
-
+<!--
 ## Module IV: SciML Uncertainty Quantification (SciML-UQ)
 
 **Lecture 12: Machine Learning using Multi-Fidelity Data** [Slides: (April 20, 2025)](https://www.dropbox.com/scl/fi/trxbbk9gy6u7jnyo83jq0/Lecture_12_Multi-fidelity.pptx?rlkey=h6mohyihxr35nsusw9nc5v10b&dl=0) [Jupyter\_Notebook](Lecture_12_Notebook/multi_fidelity_notbook.ipynb)
