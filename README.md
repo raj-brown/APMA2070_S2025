@@ -101,10 +101,10 @@ Providence RI 02906
 
 
 ## Module III: Neural Operators
-**Lecture 10: Deep Operator Network (DeepONet)** [Slides: (April 13, 2025)](https://www.dropbox.com/scl/fi/yfinwvwkaorgl3p5stmu9/Lecture_10_DeepONet_GK.pptx?rlkey=nvs1wwz8j53ea8rz61o3927zv&dl=0) [Jupyter\_Notebook](Lecture_10_Notebook/operators.ipynb) [DATA\_FOR\_FNO](https://www.dropbox.com/s/klxu19gn9oxjdwf/burgers\_data\_R10.mat?dl=0)  
+**Lecture 10: Deep Operator Network (DeepONet)** [Slides: (April 13, 2025)](https://www.dropbox.com/scl/fi/yfinwvwkaorgl3p5stmu9/Lecture_10_DeepONet_GK.pptx?rlkey=nvs1wwz8j53ea8rz61o3927zv&dl=0) [Jupyter\_Notebook](Lecture_10_Notebook/Python/operators.ipynb) [DATA\_FOR\_FNO](https://www.dropbox.com/s/klxu19gn9oxjdwf/burgers\_data\_R10.mat?dl=0)  
 
 
-**Lecture 11: Implementation of PINNs and DeepOnet** [Slides: (April 20, 2025)](https://www.dropbox.com/scl/fi/0irba2lenid6b62alvyr0/Lecture_11_implementation_PINNS_DeepXDE.pptx?rlkey=bsbhlo7wruiqwuc0x0mbijtek&dl=0) [Jupyter\_Notebook](Lecture_11_Notebook/deepXde.ipynb) [DATA\_FOR\_DEEPONET](https://www.dropbox.com/sh/dkmn84nccqcbuts/AAC9gunsRcCzfv4ETrTm56cWa?dl=0)
+**Lecture 11: Implementation of PINNs and DeepOnet** [Slides: (April 20, 2025)](https://www.dropbox.com/scl/fi/0irba2lenid6b62alvyr0/Lecture_11_implementation_PINNS_DeepXDE.pptx?rlkey=bsbhlo7wruiqwuc0x0mbijtek&dl=0) [Jupyter\_Notebook](Lecture_11_Notebook/Python/deepXde.ipynb) [DATA\_FOR\_DEEPONET](https://www.dropbox.com/sh/dkmn84nccqcbuts/AAC9gunsRcCzfv4ETrTm56cWa?dl=0)
 
 <!--
 ## Module IV: SciML Uncertainty Quantification (SciML-UQ)
