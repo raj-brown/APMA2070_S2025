@@ -101,15 +101,16 @@ Providence RI 02906
 
 
 ## Module III: Neural Operators
-**Lecture 10: Deep Operator Network (DeepONet)** [Slides: (April 13, 2025)](https://www.dropbox.com/scl/fi/yfinwvwkaorgl3p5stmu9/Lecture_10_DeepONet_GK.pptx?rlkey=nvs1wwz8j53ea8rz61o3927zv&dl=0) [Jupyter\_Notebook](Lecture_10_Notebook/Python/operators.ipynb) [DATA\_FOR\_FNO](https://www.dropbox.com/s/klxu19gn9oxjdwf/burgers\_data\_R10.mat?dl=0)  
+**Lecture 10: Deep Operator Network (DeepONet)** [Slides: (April 14, April 21, 2025)](https://www.dropbox.com/scl/fi/yfinwvwkaorgl3p5stmu9/Lecture_10_DeepONet_GK.pptx?rlkey=nvs1wwz8j53ea8rz61o3927zv&dl=0) [Jupyter\_Notebook](Lecture_10_Notebook/Python/operators.ipynb) [DATA\_FOR\_FNO](https://www.dropbox.com/s/klxu19gn9oxjdwf/burgers\_data\_R10.mat?dl=0)  
 
 
-**Lecture 11: Implementation of PINNs and DeepOnet** [Slides: (April 20, 2025)](https://www.dropbox.com/scl/fi/1o770q3ymfsmp2fl1jfcz/Lecture_11_implementation_PINNS_DeepXDE.pptx?rlkey=f0a0d3emzbpa9kthiz1kzzyvn&st=iym3tcwo&dl=0)[Jupyter\_Notebook](Lecture_11_Notebook/Python/deepXde.ipynb) [DATA\_FOR\_DEEPONET](https://www.dropbox.com/sh/dkmn84nccqcbuts/AAC9gunsRcCzfv4ETrTm56cWa?dl=0)
+**Lecture 11: Implementation of PINNs and DeepOnet** [Slides: (April 21, 2025)](https://www.dropbox.com/scl/fi/1o770q3ymfsmp2fl1jfcz/Lecture_11_implementation_PINNS_DeepXDE.pptx?rlkey=f0a0d3emzbpa9kthiz1kzzyvn&st=iym3tcwo&dl=0)[Jupyter\_Notebook](Lecture_11_Notebook/Python/deepXde.ipynb) [DATA\_FOR\_DEEPONET](https://www.dropbox.com/sh/dkmn84nccqcbuts/AAC9gunsRcCzfv4ETrTm56cWa?d
+l=0)
 
 <!--
 ## Module IV: SciML Uncertainty Quantification (SciML-UQ)
 
-**Lecture 12: Machine Learning using Multi-Fidelity Data** [Slides: (April 20, 2025)](https://www.dropbox.com/scl/fi/trxbbk9gy6u7jnyo83jq0/Lecture_12_Multi-fidelity.pptx?rlkey=h6mohyihxr35nsusw9nc5v10b&dl=0) [Jupyter\_Notebook](Lecture_12_Notebook/multi_fidelity_notbook.ipynb)
+**Lecture 12: Machine Learning using Multi-Fidelity Data** [Slides: (April 21, 2025)](https://www.dropbox.com/scl/fi/kvkoqcabyn86079q0n0rv/Lecture_12_Multi-fidelity.pptx?rlkey=ibd7rd0ru7mjoldepe9urotlg&st=bldxidfv&dl=0) [Jupyter\_Notebook](Lecture_12_Notebook/multi_fidelity_notbook.ipynb)
 
 **Lecture 13: Uncertainty Quantification(UQ) in Scientific Machine Learning** [Slides: (April 27, 2025)](https://www.dropbox.com/scl/fi/btioi6rkpvqf6bmcl7rpu/Lecture_13_UQ.pptx?rlkey=b7ct5pd9d2ykoy59tu0gzssc5&dl=0) [Jupyter\_Notebook](Lecture_13_Notebook/neural_uq.ipynb) [Slides: Neural\_UQ](https://www.dropbox.com/scl/fi/enwkop5hdng3tc7ejtz2z/Lecture_13_ADD_ON_NeuralUQ.pptx?rlkey=m0nzk6gleb3q1xv5eny38pgzc&dl=0)
 
