@@ -107,11 +107,12 @@ Providence RI 02906
 **Lecture 11: Implementation of PINNs and DeepOnet** [Slides: (April 21, 2025)](https://www.dropbox.com/scl/fi/1o770q3ymfsmp2fl1jfcz/Lecture_11_implementation_PINNS_DeepXDE.pptx?rlkey=f0a0d3emzbpa9kthiz1kzzyvn&st=iym3tcwo&dl=0)[Jupyter\_Notebook](Lecture_11_Notebook/Python/deepXde.ipynb) [DATA\_FOR\_DEEPONET](https://www.dropbox.com/sh/dkmn84nccqcbuts/AAC9gunsRcCzfv4ETrTm56cWa?d
 l=0)
 
-<!--
+
 ## Module IV: SciML Uncertainty Quantification (SciML-UQ)
 
 **Lecture 12: Machine Learning using Multi-Fidelity Data** [Slides: (April 21, 2025)](https://www.dropbox.com/scl/fi/kvkoqcabyn86079q0n0rv/Lecture_12_Multi-fidelity.pptx?rlkey=ibd7rd0ru7mjoldepe9urotlg&st=bldxidfv&dl=0) [Jupyter\_Notebook](Lecture_12_Notebook/multi_fidelity_notbook.ipynb)
 
+<!--
 **Lecture 13: Uncertainty Quantification(UQ) in Scientific Machine Learning** [Slides: (April 27, 2025)](https://www.dropbox.com/scl/fi/btioi6rkpvqf6bmcl7rpu/Lecture_13_UQ.pptx?rlkey=b7ct5pd9d2ykoy59tu0gzssc5&dl=0) [Jupyter\_Notebook](Lecture_13_Notebook/neural_uq.ipynb) [Slides: Neural\_UQ](https://www.dropbox.com/scl/fi/enwkop5hdng3tc7ejtz2z/Lecture_13_ADD_ON_NeuralUQ.pptx?rlkey=m0nzk6gleb3q1xv5eny38pgzc&dl=0)
 
 
