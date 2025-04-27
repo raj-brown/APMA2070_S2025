@@ -1,7 +1,5 @@
 
 **/*.pyc
-**/*.npz
-/Lecture_13_Notebook/
 /Advanced_Topics/
 /.DS_Store
 

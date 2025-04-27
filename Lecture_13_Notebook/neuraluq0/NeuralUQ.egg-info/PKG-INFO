@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: NeuralUQ
+Version: 0.1.0b0
+Summary: A library for uncertainty quantification in neural differential equations
+Author: Zongren Zou & Xuhui Meng
+Author-email: zongren_zou@brown.edu, xuhui_meng@hust.edu.cn
+Keywords: Scientific machine learning,Uncertainty Quantification,Deep learning,Neural networks,Differential equations,Bayesian inference,Neural ODEs/PDEs
