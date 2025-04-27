@@ -110,12 +110,12 @@ l=0)
 
 ## Module IV: SciML Uncertainty Quantification (SciML-UQ)
 
-**Lecture 12: Machine Learning using Multi-Fidelity Data** [Slides: (April 21, 2025)](https://www.dropbox.com/scl/fi/kvkoqcabyn86079q0n0rv/Lecture_12_Multi-fidelity.pptx?rlkey=ibd7rd0ru7mjoldepe9urotlg&st=bldxidfv&dl=0) [Jupyter\_Notebook](Lecture_12_Notebook/multi_fidelity_notbook.ipynb)
+**Lecture 12: Machine Learning using Multi-Fidelity Data** [Slides: (April 21, April 27, 2025)](https://www.dropbox.com/scl/fi/kvkoqcabyn86079q0n0rv/Lecture_12_Multi-fidelity.pptx?rlkey=ibd7rd0ru7mjoldepe9urotlg&st=bldxidfv&dl=0) [Jupyter\_Notebook](Lecture_12_Notebook/multi_fidelity_notbook.ipynb)
+
+
+**Lecture 13: Uncertainty Quantification(UQ) in Scientific Machine Learning** [Slides: (April 27, 2025)](https://www.dropbox.com/scl/fi/razs5yoe5svz7cirq2ik2/Lecture_13_UQ.pptx?rlkey=ywhygfnpt9z6h0z6z415cuuu9&dl=0)[Jupyter\_Notebook](Lecture_13_Notebook/neural_uq.ipynb) [Slides: Neural\_UQ](https://www.dropbox.com/scl/fi/w3x7lllewz7fppa8nx2mv/Lecture_13_ADD_ON_NeuralUQ.pptx?rlkey=j0an5lk1uuo3ftlxv3vmhdwc4&dl=0)
 
 <!--
-**Lecture 13: Uncertainty Quantification(UQ) in Scientific Machine Learning** [Slides: (April 27, 2025)](https://www.dropbox.com/scl/fi/btioi6rkpvqf6bmcl7rpu/Lecture_13_UQ.pptx?rlkey=b7ct5pd9d2ykoy59tu0gzssc5&dl=0) [Jupyter\_Notebook](Lecture_13_Notebook/neural_uq.ipynb) [Slides: Neural\_UQ](https://www.dropbox.com/scl/fi/enwkop5hdng3tc7ejtz2z/Lecture_13_ADD_ON_NeuralUQ.pptx?rlkey=m0nzk6gleb3q1xv5eny38pgzc&dl=0)
-
-
 ## Advanced Topics
 
 1. **Multi-GPU Scientific Machine Learning** [Slides: (May 5, 2025)](https://www.dropbox.com/scl/fi/79tjobb4tft6n8i88tyc0/Lecture_11_MULTI-GPU_SCIML.pptx?rlkey=hqv8t9c7jg4iaya1874u1s1ky&dl=0) [Python Code](Advanced_Topics) [Slides:NCCL](https://www.dropbox.com/scl/fi/5xdqa4fn90l95m2luobly/Lecture_11_NCCL.pdf?rlkey=v1f9emhdoa4extrnc45k1qq38&dl=0)[Slides: NVIDIA-MODULUS](https://www.dropbox.com/scl/fi/rqbuqbijxi9fedzaoiy1n/MODULUS_NVIDIA.pptx?rlkey=iumhh62o6pvae7lnkj54dbg5r&dl=0)
