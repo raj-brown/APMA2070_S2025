@@ -113,7 +113,7 @@ l=0)
 **Lecture 12: Machine Learning using Multi-Fidelity Data** [Slides: (April 21, April 27, 2025)](https://www.dropbox.com/scl/fi/kvkoqcabyn86079q0n0rv/Lecture_12_Multi-fidelity.pptx?rlkey=ibd7rd0ru7mjoldepe9urotlg&st=bldxidfv&dl=0) [Jupyter\_Notebook](Lecture_12_Notebook/multi_fidelity_notbook.ipynb)
 
 
-**Lecture 13: Uncertainty Quantification(UQ) in Scientific Machine Learning** [Slides: (April 27, 2025)](https://www.dropbox.com/scl/fi/razs5yoe5svz7cirq2ik2/Lecture_13_UQ.pptx?rlkey=ywhygfnpt9z6h0z6z415cuuu9&dl=0)[Jupyter\_Notebook](Lecture_13_Notebook/neural_uq.ipynb) [Slides: Neural\_UQ](https://www.dropbox.com/scl/fi/w3x7lllewz7fppa8nx2mv/Lecture_13_ADD_ON_NeuralUQ.pptx?rlkey=j0an5lk1uuo3ftlxv3vmhdwc4&dl=0)
+**Lecture 13: Uncertainty Quantification(UQ) in Scientific Machine Learning** [Slides: (April 27, 2025)](https://www.dropbox.com/scl/fi/razs5yoe5svz7cirq2ik2/Lecture_13_UQ.pptx?rlkey=ywhygfnpt9z6h0z6z415cuuu9&dl=0) [Jupyter\_Notebook](Lecture_13_Notebook/neural_uq.ipynb) [Slides: Neural\_UQ](https://www.dropbox.com/scl/fi/w3x7lllewz7fppa8nx2mv/Lecture_13_ADD_ON_NeuralUQ.pptx?rlkey=j0an5lk1uuo3ftlxv3vmhdwc4&dl=0)
 
 <!--
 ## Advanced Topics
