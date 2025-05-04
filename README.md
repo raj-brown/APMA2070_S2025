@@ -115,11 +115,10 @@ l=0)
 
 **Lecture 13: Uncertainty Quantification(UQ) in Scientific Machine Learning** [Slides: (April 27, 2025)](https://www.dropbox.com/scl/fi/razs5yoe5svz7cirq2ik2/Lecture_13_UQ.pptx?rlkey=ywhygfnpt9z6h0z6z415cuuu9&dl=0) [Jupyter\_Notebook](Lecture_13_Notebook/neural_uq.ipynb) [Slides: Neural\_UQ](https://www.dropbox.com/scl/fi/w3x7lllewz7fppa8nx2mv/Lecture_13_ADD_ON_NeuralUQ.pptx?rlkey=j0an5lk1uuo3ftlxv3vmhdwc4&dl=0)
 
-<!--
 ## Advanced Topics
 
-1. **Multi-GPU Scientific Machine Learning** [Slides: (May 5, 2025)](https://www.dropbox.com/scl/fi/79tjobb4tft6n8i88tyc0/Lecture_11_MULTI-GPU_SCIML.pptx?rlkey=hqv8t9c7jg4iaya1874u1s1ky&dl=0) [Python Code](Advanced_Topics) [Slides:NCCL](https://www.dropbox.com/scl/fi/5xdqa4fn90l95m2luobly/Lecture_11_NCCL.pdf?rlkey=v1f9emhdoa4extrnc45k1qq38&dl=0)[Slides: NVIDIA-MODULUS](https://www.dropbox.com/scl/fi/rqbuqbijxi9fedzaoiy1n/MODULUS_NVIDIA.pptx?rlkey=iumhh62o6pvae7lnkj54dbg5r&dl=0)
--->
+1. **Multi-GPU Scientific Machine Learning** [Slides: (May 5, 2025)](https://www.dropbox.com/scl/fi/1tkn917z2a5r2h2jr9i28/Lecture_ADV_1_MULTI-GPU_SCIML.pptx?rlkey=21l7lz0zs0agpclk8lyqbe8nv&st=31ufkko2&dl=0) [Python Code](Advanced_Topics) 
+
 
 
 ## Template for Project Presentation
