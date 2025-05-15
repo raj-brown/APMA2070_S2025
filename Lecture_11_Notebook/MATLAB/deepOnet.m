@@ -1,77 +1,95 @@
-clc; clear; close all;
+% Define input dimensions
+inputDimBranch = 100;  % Number of points for u(x)
+inputDimTrunk = 1;     % A single point for y
+hiddenUnits = 64;
 
-% Define network parameters
-branchInputSize = 100;   % Number of sensors for function input
-trunkInputSize = 1;      % Single evaluation point
-hiddenLayerSize = 50;    % Number of neurons in hidden layers
-outputSize = 1;          % Output scalar value
-
-% Define branch network (fully connected layers)
+% Branch network (for function u(x))
 branchLayers = [
-    featureInputLayer(branchInputSize, 'Name', 'branchInput')
-    fullyConnectedLayer(hiddenLayerSize, 'Name', 'branchFC1')
-    reluLayer('Name', 'branchReLU1')
-    fullyConnectedLayer(hiddenLayerSize, 'Name', 'branchFC2')
-    reluLayer('Name', 'branchReLU2')
-    fullyConnectedLayer(hiddenLayerSize, 'Name', 'branchFC3')
-];
+    featureInputLayer(inputDimBranch, "Name", "branch_input")
+    fullyConnectedLayer(hiddenUnits, "Name", "branch_fc1")
+    reluLayer("Name", "branch_relu1")
+    fullyConnectedLayer(hiddenUnits, "Name", "branch_fc2")
+    ];
 
-% Define trunk network (fully connected layers)
+% Trunk network (for point y)
 trunkLayers = [
-    featureInputLayer(trunkInputSize, 'Name', 'trunkInput')
-    fullyConnectedLayer(hiddenLayerSize, 'Name', 'trunkFC1')
-    reluLayer('Name', 'trunkReLU1')
-    fullyConnectedLayer(hiddenLayerSize, 'Name', 'trunkFC2')
-    reluLayer('Name', 'trunkReLU2')
-    fullyConnectedLayer(hiddenLayerSize, 'Name', 'trunkFC3')
-];
+    featureInputLayer(inputDimTrunk, "Name", "trunk_input")
+    fullyConnectedLayer(hiddenUnits, "Name", "trunk_fc1")
+    reluLayer("Name", "trunk_relu1")
+    fullyConnectedLayer(hiddenUnits, "Name", "trunk_fc2")
+    ];
 
-% Define the final output network (dot product + output layer)
-outputLayers = [
-    additionLayer(2, 'Name', 'merge') % Merge branch and trunk outputs
-    fullyConnectedLayer(outputSize, 'Name', 'output')
-];
+% Dot product layer (combines the outputs of the Branch and Trunk networks)
+dotProductLayer = functionLayer(@(inputs) dotProduct(inputs{1}, inputs{2}), "Name", "dot_product");
 
-% Combine all layers into a deep learning network
-lgraph = layerGraph(branchLayers);
+% Final layers
+finalLayers = [
+    dotProductLayer
+    fullyConnectedLayer(1, "Name", "fc_out")
+    regressionLayer("Name", "regression_output")
+    ];
+% Create the layer graph and add all layers
+lgraph = layerGraph();
+
+% Add the Branch and Trunk networks
+lgraph = addLayers(lgraph, branchLayers);
 lgraph = addLayers(lgraph, trunkLayers);
-lgraph = addLayers(lgraph, outputLayers);
+lgraph = addLayers(lgraph, finalLayers);
 
-% Connect branch and trunk outputs to the merge layer
-lgraph = connectLayers(lgraph, 'branchFC3', 'merge/in1');
-lgraph = connectLayers(lgraph, 'trunkFC3', 'merge/in2');
+% Connect Branch network output to the dot product layer input 1
+lgraph = connectLayers(lgraph, "branch_fc2", "dot_product/in1");
 
-% Visualize the network
-figure;
-plot(lgraph);
-title('DeepONet Architecture');
+% Connect Trunk network output to the dot product layer input 2
+lgraph = connectLayers(lgraph, "trunk_fc2", "dot_product/in2");
 
-% Define training options
-options = trainingOptions('adam', ...
-    'MaxEpochs', 100, ...
-    'MiniBatchSize', 32, ...
-    'InitialLearnRate', 0.001, ...
-    'Verbose', true, ...
-    'Plots', 'training-progress');
 
-% Generate synthetic training data (example)
-numSamples = 1000;
-X_branch = rand(numSamples, branchInputSize);
-X_trunk = rand(numSamples, trunkInputSize);
-Y = sum(X_branch, 2) .* X_trunk; % Example function output
+% Parameters
+nSamples = 1000;    % Number of training samples
+inputDimBranch = 100; % Number of discretization points for u(x)
 
-% Convert data to datastores
-dsTrain = arrayDatastore({X_branch, X_trunk}, 'IterationDimension', 1);
-dsResponse = arrayDatastore(Y, 'IterationDimension', 1);
-trainData = combine(dsTrain, dsResponse);
+% Generate x values and corresponding u(x)
+x = linspace(0, 1, inputDimBranch);
+u_data = sin(pi * x);            % Example: u(x) = sin(pi*x)
+U = repmat(u_data, nSamples, 1); % Repeat u(x) for each training sample
 
-% Train the DeepONet model
-net = trainNetwork(trainData, lgraph, options);
+% Generate y values (point inputs)
+y = rand(nSamples, 1);  % Random values for y (between 0 and 1)
 
-% Test the model on new data
-X_test_branch = rand(10, branchInputSize);
-X_test_trunk = rand(10, trunkInputSize);
-predictions = predict(net, {X_test_branch, X_test_trunk});
+% Compute target values (output)
+targets = cos(pi * y);  % Example: Target = cos(pi * y)
 
-disp('Predicted outputs:');
-disp(predictions);
+% Create individual datastores
+dsU = arrayDatastore(U, 'IterationDimension', 1);        % Branch input
+dsY = arrayDatastore(y, 'IterationDimension', 1);        % Trunk input
+dsT = arrayDatastore(targets, 'IterationDimension', 1);  % Output
+
+% Combine datastores
+dsCombined = combine(dsU, dsY, dsT);
+
+% Transform datastore into required format
+dsFinal = transform(dsCombined, @(data) {data{1}, data{2}, data{3}});
+
+
+options = trainingOptions("adam", ...
+    "MaxEpochs", 300, ...        % Maximum number of training epochs
+    "MiniBatchSize", 32, ...     % Mini-batch size
+    "InitialLearnRate", 1e-3, ...% Initial learning rate
+    "Shuffle", "every-epoch", ...% Shuffle the data every epoch
+    "Verbose", false, ...        % Display progress during training
+    "Plots", "training-progress"); % Plot training progress
+
+% Train the network
+net = trainNetwork(dsFinal, lgraph, options);
+
+
+% Test data (same as training data)
+yt = linspace(0, 1, 100)';          % New test values for y
+Ut = repmat(u_data, length(yt), 1);  % Repeat u(x) for each y value
+
+% Predict with the trained network
+pred = predict(net, {Ut, yt});
+
+% Plot the results
+plot(yt, cos(pi*yt), 'k-', yt, pred, 'r--')
+legend("True", "Predicted")
+title("DeepONet Prediction (Dot Product)")
