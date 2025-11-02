@@ -21,6 +21,7 @@
 *.slxc binary
 *.slx binary merge=mlAutoMerge linguist-language=Simulink
 *.slxp binary
+*.ipynb linguist-language=Jupyter Notebook
 
 ## Other common binary file types
 *.docx binary
