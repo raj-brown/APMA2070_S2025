@@ -10,6 +10,8 @@
 *.mldatx binary
 *.mlproj binary
 *.mlx binary merge=mlAutoMerge linguist-language=MATLAB
+*.m linguist-detectable=true
+*.mlx linguist-detectable=true
 *.p binary
 *.sfx binary
 *.sldd binary
