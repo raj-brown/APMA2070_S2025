@@ -6,6 +6,7 @@
 *.mexw64 binary
 *.mexmaci64 binary
 *.mlapp binary linguist-language=MATLAB
+*.m linguist-language=MATLAB
 *.mldatx binary
 *.mlproj binary
 *.mlx binary merge=mlAutoMerge linguist-language=MATLAB
